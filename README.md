@@ -1,8 +1,5 @@
 # ETSII ULL Grado de Informatica
 
-## Esto es una prueba
-Un segundo cambio hecho despues de modificar el email
-
 ## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
 ### Que aprendemos
@@ -15,12 +12,26 @@ Un segundo cambio hecho despues de modificar el email
 * Uso de Mocha y Chai 
 * Uso de Gulp
 
+### Diferencias con la versión en la rama `gh-pages`
+
+* En el fichero `tests/index.html` de la rama `chainode` se muestran diversas formas de cargar el fichero `chai.js`:
+
+         <!-- 
+            <script src="chai.js"></script>
+          -->
+          <!--
+            <script src=" http://chaijs.com/chai.js"></script> 
+          -->
+         <script src="../node_modules/chai/chai.js"></script> <!-- it works -->
+
+
+
+
+
 ### Despliegue en github.io
 
 * [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/)
 
 ### Ejecutar las pruebas
 
 * [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
-* [http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html](http://ULL-ESIT-GRADOII-DSI.github.io/ull-etsii-grado-dsi-simple/tests/index.html)
