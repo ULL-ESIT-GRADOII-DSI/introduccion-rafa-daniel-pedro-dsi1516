@@ -21,6 +21,6 @@ function calculate() {
     converted.innerHTML = result;
   }
   else {
-    converted.innerHTML = "ERROR! Sintax error ";
+    converted.innerHTML = "ERROR! Try something like '-4.2C' '4.2f' '4.2far' '4.2 farenheit' instead ";
   }
 }
