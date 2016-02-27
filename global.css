@@ -1,29 +1,82 @@
-th, td      {
-               vertical-align: top;
-               text-align: right;
-               font-size:large;
-               // border: 1px solid black;
-            }     /* Don't center table cells  */
-#converted  { color: red; font-weight: bold; font-size:large;          }     /* Calculated values in bold */
-input       {
-              text-align: right;       /* Align input to the right  */
-              border: none;
-              border-radius: 20px 20px 20px 20px;
-              padding: 5px  5px;
-              font-size:large;       }
-body
-{
- background-color:#b0c4de;  /* blue */
- font-size:large;
- font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
+body {
+	background-color: #EEEEEE;
 }
 
 h1 {
-    font-weight: normal;
-    font-family: "Brush Script MT", cursive;
-    background: #3C5681;
-    padding: 5px 15px;
-    color: white;
-    display:inline-block;
-    border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+.wrapper {
+	margin: 3% 19% 0% 19%;
+	box-shadow: 0px 0px 9px 0px #323232; /* Firefox */
+	-moz-box-shadow: 0px 0px 9px 0px #323232; /* Safari y Chrome */
+	-webkit-box-shadow: 0px 0px 9px 0px #323232; /* Opera */
+	-o-box-shadow: 0px 0px 9px 0px #323232;
+	border-style: solid;
+	border-color: #EEEEEE;
+	border-width: 20px 20px 40px 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+table {
+	white-space: nowrap;
+}
+
+th {
+	text-align: right;
+	font-weight: normal;
+}
+
+th, td {
+	padding: 5px;
+}
+
+#converted {
+	color: #FF4545;
+}
+
+/* Aparecer con un desvanecimiento */
+
+body {
+	animation: fadein 2s;
+	-moz-animation: fadein 2s; /* Firefox */
+	-webkit-animation: fadein 2s; /* Safari y Chrome */
+	-o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadein { /* Firefox */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadein { /* Safari y Chrome */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadein { /* Opera */
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
