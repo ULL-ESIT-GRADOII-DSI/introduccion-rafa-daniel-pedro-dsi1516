@@ -8,7 +8,7 @@ function calculate() {
 
   if (m) {
     var num = m[1];
-    var type = m[2];
+    var type = m[3];
     num = parseFloat(num);
     if (type == 'c' || type == 'C') {
       result = (num * 9/5)+32;
