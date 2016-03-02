@@ -2,7 +2,7 @@
 function calculate() {
   var result;
   var temp = original.value;
-  var regexp = /\s*([-+]?\d+(?:\.\d*)?\s*(?:([eE][-+]?[0-9]+)?))\s*([fFcC]\s*$|[fF][a]?[h]?[r]?[e]?[n]?[h]?[e]?[i]?[t]?\s*$|fahrenheit$|Fahrenheit$|[cC][e][l]?[s]?[i]?[u]?[s]?\s*$|celsius$|Celsius$)/;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:([eE][-+]?[0-9]+)?))\s*([fFcC]\s*$|[fF][a]?[h]?[r]?[e]?[n]?[h]?[e]?[i]?[t]?\s*$|fahrenheit$|Fahrenheit$|[cC][e][l]?[s]?[i]?[u]?[s]?\s*$|celsius$|Celsius$)/;
 
   var m = temp.match(regexp);
 
@@ -10,8 +10,9 @@ function calculate() {
     var num = m[1];
     var type = m[3];
     num = parseFloat(num);
-    if (type == 'c' || type == 'C'||type == "ce"||type == "Ce"||type == "cel"||type == "Cel"||type == "cels"||type == "Cels"||type == "celsi"||type == "Celsi"||type == "celsiu"||type == "Celsiu"||type == "celsius"||type == "Celsius"||type == "celsius "||type == "Celsius ")
-    {
+    mayus=type.toUpperCase();
+    console.log("->"+mayus);
+    if(type=="/[C][E]?[L]?[S]?[I]?[U]?[S]?\s*$/")    {
       result = (num * 9/5)+32;
       result = result.toFixed(1)+" Farenheit";
     }
