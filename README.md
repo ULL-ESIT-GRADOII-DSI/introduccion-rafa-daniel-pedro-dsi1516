@@ -1,20 +1,6 @@
-# ETSII ULL Grado de Informatica
-
-## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
-
-### Que aprendemos
-
-* HTML básico
-* JavaScript básico
-* Expresiones Regulares
-* Un poquito de CSS
-* Uso de Emmet (instale el plugin para su editor)
-* Uso de Mocha y Chai (no se incluye en esta version en esta rama)
-* Uso de Gulp (No se incluye en esta rama)
-
-### Despliegue en github.io
-
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
+# Práctica 2 de DSI
+## Introducción
+En esta práctica hemos tenido que desarrollar una aplicación web que nos permite convertir de grados Fahrenheit a grados Celsius y viceversa.
 
 ### Diferencias con la versión en la rama `master`
 
@@ -49,3 +35,11 @@
 * En esta rama en `temperature.js` se usa `alert` para enviar los mensajes en vez de insertarlos en la página con el método `innerHTML`.
 
 * Véase también [HTML `<input>` pattern Attribute in W3Schools](http://www.w3schools.com/tags/att_input_pattern.asp)
+
+## División de trabajo
+* [Rafael Herrero](https://github.com/Rafaherrero): HTML
+* [Daniel Ramos](https://github.com/DanielRamosAcosta): CSS
+* [Pedro Ramos](https://github.com/alu0100505078): Javascript
+
+## Despliegue
+Nuestra aplicación se puede visualizar desde la github page de este repositorio, la cual se puede acceder a través de [este](http://ull-esit-gradoii-dsi.github.io/introduccion-rafa-daniel-pedro-dsi1516/) enlace.
