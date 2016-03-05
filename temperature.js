@@ -12,7 +12,7 @@ function calculate() {
     num = parseFloat(num);
     mayus=type.toUpperCase();
     console.log("->"+mayus);
-    if(type=="/[C][E]?[L]?[S]?[I]?[U]?[S]?\s*$/")    {
+    if(mayus[0]=="C")    {
       result = (num * 9/5)+32;
       result = result.toFixed(1)+" Farenheit";
     }
