@@ -42,7 +42,7 @@ En esta práctica hemos tenido que desarrollar una aplicación web que nos permi
 * [Pedro Ramos](https://github.com/alu0100505078): Javascript
 
 ## Despliegue
-Nuestra aplicación se puede visualizar desde la github page de este repositorio, la cual se puede acceder a través de [este](http://ull-esit-gradoii-dsi.github.io/introduccion-rafa-daniel-pedro-dsi1516/) enlace.
+Nuestra aplicación se puede visualizar desde la github page de este repositorio, la cual se puede acceder a través de [este](http://ull-esit-gradoii-dsi.github.io/introduccion-rafa-daniel-pedro-dsi1516/) enlace. En el caso de querer probar esta versión en la que analiza el patrón el archivo HTML, deberá de descargar los ficheros y abrirlo en un navegador desde el propio ordenador.
 
 ## Página de la asignatura
 Enlace a la [asignatura de DSI del campus de la ULL](https://campusvirtual.ull.es/1516/course/view.php?id=144)
