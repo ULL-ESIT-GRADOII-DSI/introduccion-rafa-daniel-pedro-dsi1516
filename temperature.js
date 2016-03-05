@@ -20,9 +20,10 @@ function calculate() {
       result = (num - 32)*5/9;
       result = result.toFixed(1)+" Celsius";
     }
-    converted.innerHTML = result;
+    alert(result);
   }
   else {
-    converted.innerHTML = "ERROR! Try something like '-4.2C' '4.2f' '4.2far' '4.2 farenheit' instead ";
+    alert("ERROR! Try something like '-4.2C' '4.2f' '4.2far' '4.2 farenheit' instead ");
   }
+  return false;
 }
